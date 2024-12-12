@@ -1,0 +1,64 @@
+.reservations {
+    background-color: #ffffff; /* Fundo branco */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    max-width: 600px;
+    margin: 3rem auto; /* Centraliza a div */
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #666;
+    margin-top: 1rem;
+  }
+  
+  /* Estilo de lista de reservas (caso queira exibir uma lista) */
+  .reservation-list {
+    margin-top: 2rem;
+    padding: 0;
+    list-style-type: none; /* Remove os marcadores de lista */
+  }
+  
+  .reservation-item {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .reservation-item h3 {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .reservation-item p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .reservations {
+      padding: 1.5rem;
+      margin: 2rem auto;
+    }
+  
+    h2 {
+      font-size: 1.8rem;
+    }
+  
+    p {
+      font-size: 1rem;
+    }
+  }
+  

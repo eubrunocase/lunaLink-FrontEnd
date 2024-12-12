@@ -1,0 +1,84 @@
+/* Estilo principal para o componente de login */
+.login {
+    background-color: #ffffff; /* Fundo branco */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    max-width: 400px; /* Largura máxima do componente */
+    margin: 3rem auto; /* Centraliza na tela */
+    text-align: center; /* Centraliza o texto */
+  }
+  
+  /* Estilo do título */
+  h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Estilo do formulário */
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza os elementos do formulário */
+    gap: 1rem; /* Espaço entre os campos */
+  }
+  
+  /* Estilo dos rótulos */
+  label {
+    display: flex;
+    flex-direction: column; /* Coloca o texto acima do campo de entrada */
+    font-size: 1rem;
+    color: #666;
+    width: 100%; /* Campos ocupam toda a largura disponível */
+  }
+  
+  /* Estilo dos campos de entrada */
+  input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box; /* Inclui padding no cálculo da largura */
+  }
+  
+  input:focus {
+    border-color: #4caf50; /* Borda verde ao focar */
+    outline: none;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5); /* Efeito visual ao focar */
+  }
+  
+  /* Estilo do botão */
+  button {
+    padding: 12px 20px;
+    background-color: #4caf50;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Cor mais escura ao passar o mouse */
+  }
+  
+  /* Responsividade para dispositivos menores */
+  @media (max-width: 768px) {
+    .login {
+      padding: 1.5rem;
+      margin: 2rem auto;
+    }
+  
+    h2 {
+      font-size: 1.6rem;
+    }
+  
+    button {
+      padding: 10px 15px;
+      font-size: 0.9rem;
+    }
+  }
+  

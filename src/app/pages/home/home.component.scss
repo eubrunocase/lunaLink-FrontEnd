@@ -1,0 +1,84 @@
+/* Estilização da tela inicial */
+.home-tittle {
+    background-color: #eca758; /* Cor de fundo suave */
+    color: #ffffff;
+    padding: 3rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    max-width: 600px;
+    margin: 3rem auto; /* Centraliza a div */
+    text-align: center; /* Centraliza o texto */
+  }
+  
+  /* Título principal */
+  h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  /* Subtítulo */
+  .home-subTittle p {
+    font-size: 1.2rem;
+    color: #0a0606;
+    margin-bottom: 2rem; /* Espaço abaixo do subtítulo */
+  }
+  
+  /* Estilo para os botões */
+  .button {
+    margin: 1rem 0; /* Espaço entre os botões */
+  }
+  
+  button {
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* Faz os botões ocuparem a largura inteira da tela */
+    max-width: 300px; /* Limita o tamanho máximo dos botões */
+    margin: 0.5rem auto; /* Centraliza os botões horizontalmente */
+    transition: background-color 0.3s ease; /* Transição suave na cor do botão */
+  }
+  
+  /* Botão "Nova Reserva" */
+  .btn-login {
+    background-color: #502c04;
+    color: white;
+  }
+  
+  .btn-login:hover {
+    background-color: #b19106; /* Alteração de cor ao passar o mouse */
+  }
+  
+  /* Botão "Minhas Reservas" */
+  .btn-reservas {
+    background-color:#502c04;
+    color: white;
+  }
+  
+  .btn-reservas:hover {
+    background-color: #b19106; /* Alteração de cor ao passar o mouse */
+  }
+  
+  /* Responsividade para telas menores */
+  @media (max-width: 768px) {
+    .home-tittle {
+      padding: 2rem;
+      margin: 2rem auto;
+    }
+  
+    h1 {
+      font-size: 2rem; /* Ajusta o tamanho da fonte no título */
+    }
+  
+    .home-subTittle p {
+      font-size: 1rem;
+    }
+  
+    button {
+      padding: 10px 20px;
+      font-size: 1rem;
+    }
+  }
+  

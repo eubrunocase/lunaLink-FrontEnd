@@ -1,0 +1,75 @@
+.new-reservation {
+    background-color: #f4f4f9; /* Fundo suave */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave para dar destaque */
+    max-width: 500px;
+    margin: 3rem auto; /* Centraliza o formulário na tela */
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+  
+  label {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  input[type="text"],
+  input[type="date"] {
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box; /* Garantir que o padding seja incluído na largura total */
+  }
+  
+  input[type="text"]:focus,
+  input[type="date"]:focus {
+    border-color: #4CAF50; /* Cor da borda ao focar no campo */
+    outline: none;
+  }
+  
+  button {
+    padding: 12px 20px;
+    background-color: #4CAF50; /* Cor do botão */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Alteração na cor de fundo ao passar o mouse */
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .new-reservation {
+      padding: 1.5rem;
+      margin: 2rem auto;
+    }
+  
+    h2 {
+      font-size: 1.6rem;
+    }
+  
+    button {
+      font-size: 1rem;
+      padding: 10px 18px;
+    }
+  }
+  
